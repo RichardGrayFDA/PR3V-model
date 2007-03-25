@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF:RDF xmlns:NS2="http://www.cellml.org/metadata/graphs/1.0#" xmlns:NS1="http://www.cellml.org/tools/pcenv/" xmlns:NC="http://home.netscape.com/NC-rdf#" xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="http://www.cellml.org/tools/pcenv/splitter/graph_sel_graph2">
+    <NS1:activegraph RDF:resource="rdf:#$wElNs1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$gjBIU1" NS2:colour="#99ff99">
+    <NS2:type RDF:resource="http://www.cellml.org/metadata/graphs/1.0#line"/>
+    <NS2:x-variable RDF:resource="rdf:#$hjBIU1"/>
+    <NS2:y-variable RDF:resource="rdf:#$ijBIU1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$mjBIU1" NS2:colour="#ffcccc">
+    <NS2:type RDF:resource="http://www.cellml.org/metadata/graphs/1.0#line"/>
+    <NS2:x-variable RDF:resource="rdf:#$njBIU1"/>
+    <NS2:y-variable RDF:resource="rdf:#$ojBIU1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$wElNs1" NS1:graphname="X1 Gate current vs time">
+    <NS2:traces RDF:resource="rdf:#$ejBIU1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://www.cellml.org/tools/pcenv/splitter/graph_sel_graph3">
+    <NS1:activegraph RDF:resource="rdf:#$vElNs1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$kjBIU1">
+    <RDF:first RDF:resource="rdf:#$ljBIU1"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="http://www.cellml.org/tools/pcenv/loadedModels">
+    <RDF:li RDF:resource="beeler_reuter_1977.cellml"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$ijBIU1">
+    <NS2:variable RDF:resource="beeler_reuter_1977.cellml#time_dependent_outward_current_i_x1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$ojBIU1">
+    <NS2:variable RDF:resource="beeler_reuter_1977.cellml#membrane_V"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://www.cellml.org/tools/pcenv/displayGraphs">
+    <RDF:first RDF:resource="rdf:#$cjBIU1"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$bjBIU1">
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$vElNs1" NS1:graphname="Topology figure" NS1:externalurl="beeler_reuter_1977.xul"/>
+  <RDF:Description RDF:about="rdf:#$fjBIU1">
+    <RDF:first RDF:resource="rdf:#$gjBIU1"/>
+    <RDF:rest RDF:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://www.cellml.org/tools/pcenv/splitter/graph_sel_graph1">
+    <NS1:activegraph RDF:resource="rdf:#$xElNs1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$njBIU1">
+    <NS2:variable RDF:resource="beeler_reuter_1977.cellml#environment_time"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$hjBIU1">
+    <NS2:variable RDF:resource="beeler_reuter_1977.cellml#environment_time"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$djBIU1">
+    <RDF:first RDF:resource="rdf:#$wElNs1"/>
+    <RDF:rest RDF:resource="rdf:#$jjBIU1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$ljBIU1">
+    <RDF:first RDF:resource="rdf:#$mjBIU1"/>
+    <RDF:rest RDF:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$jjBIU1">
+    <RDF:first RDF:resource="rdf:#$xElNs1"/>
+    <RDF:rest RDF:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$ejBIU1">
+    <RDF:first RDF:resource="rdf:#$fjBIU1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$xElNs1" NS1:graphname="Voltage vs time">
+    <NS2:traces RDF:resource="rdf:#$kjBIU1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="beeler_reuter_1977.cellml" NS1:modelname="beeler_reuter_1977_version02" NS1:modelfrozen="true">
+    <NS1:derivedmodels RDF:resource="rdf:#$bjBIU1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$cjBIU1">
+    <RDF:first RDF:resource="rdf:#$vElNs1"/>
+    <RDF:rest RDF:resource="rdf:#$djBIU1"/>
+  </RDF:Description>
+</RDF:RDF>
