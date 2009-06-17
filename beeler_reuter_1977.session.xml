@@ -18,7 +18,7 @@
   <RDF:Description RDF:about="http://www.cellml.org/tools/pcenv/displayGraphs">
     <RDF:first RDF:resource="rdf:#$zdcE11"/>
   </RDF:Description>
-  <RDF:Description RDF:about="beeler_reuter_1977.cellml" NS1:modelname="beeler_reuter_1977_version07" NS1:modelfrozen="true">
+  <RDF:Description RDF:about="beeler_reuter_1977.cellml" NS1:modelname="beeler_reuter_1977_version08" NS1:modelfrozen="true">
     <NS1:derivedmodels RDF:resource="rdf:#$ydcE11"/>
   </RDF:Description>
   <RDF:Description RDF:about="rdf:#$JdcE11" NS2:colour="#369e69">
