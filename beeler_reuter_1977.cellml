@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 This CellML file was generated on 07/05/2008 at 16:14:45 using:
 
@@ -850,7 +850,7 @@ The breakdown of the model into components and the definition of encapsulation a
                <apply>
                   <times/>
                   <ci>x1</ci>
-                  <cn cellml:units="uA_per_mm2">8e-3</cn>
+                  <cn type="e-notation" cellml:units="uA_per_mm2">8<sep/>-3</cn>
                   <apply>
                      <minus/>
                      <apply>
@@ -898,7 +898,7 @@ The breakdown of the model into components and the definition of encapsulation a
                <divide/>
                <apply>
                   <times/>
-                  <cn cellml:units="per_ms">5e-4</cn>
+                  <cn type="e-notation" cellml:units="per_ms">5<sep/>-4</cn>
                   <apply>
                      <exp/>
                      <apply>
@@ -1403,14 +1403,14 @@ The breakdown of the model into components and the definition of encapsulation a
   </rdf:Description>
   <rdf:Description rdf:about="rdf:#aeb90a45-e2e6-4579-a33b-356cc62b1dc4">
     <dc:creator rdf:resource="rdf:#5beb2b45-5f2a-4b35-90a4-c1da9b0b59cd"/>
-    <rdf:value>This model has been curated and is known to run and reproduce the published results in PCEnv and COR. A PCEnv session file is also associated with this model.&#13;
-&#13;
+    <rdf:value>This model has been curated and is known to run and reproduce the published results in PCEnv and COR. A PCEnv session file is also associated with this model.
+
 Penny has curated this model from Flavio Fenton's model code. See http://thevirtualheart.org/ for Java applet rendering of model. Code available from Dr Fenton</rdf:value>
   </rdf:Description>
   <rdf:Description rdf:about="rdf:#fc128820-8eb0-45dd-9403-858fa9abecce">
     <dcterms:modified rdf:resource="rdf:#393fb186-60b8-4cf5-9d36-700524a5507e"/>
-    <rdf:value>Updated cmeta:id's for reference by PCEnv sessions.&#13;
-&#13;
+    <rdf:value>Updated cmeta:id's for reference by PCEnv sessions.
+
 Added simulation metadata to allow simulation for 10,000 ms</rdf:value>
     <cmeta:modifier rdf:resource="rdf:#882c08d9-19e5-4f37-b2d2-29b13404df3d"/>
   </rdf:Description>
